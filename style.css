@@ -1,0 +1,41 @@
+css file 
+
+body{
+     font-family: 'Tangerine', serif;
+     background-color: rgb(5, 99, 116);
+     font-size: 20px;
+     margin: 0;
+     padding: 0;
+}
+#header{
+     text-align: center;
+     color: antiquewhite;
+     font-weight: bolder;
+}
+#nav_bar{
+     
+     margin-bottom: 0;
+     padding: 0;
+     background-color: rgb(47, 195, 221);
+     
+}
+#showWeather{
+     text-align: center;
+     font-size: 20px;
+     font-weight: bolder;
+     color: antiquewhite;
+}
+
+#cityDiv{
+    width: 60%; 
+    margin: auto;
+    text-align: center;
+}
+input[type='text']{
+     height: 40px;
+     font-size: 20px;
+}
+#submitCity{
+     height:40px ;
+     font-weight: bold;
+}

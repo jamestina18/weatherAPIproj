@@ -1,0 +1,47 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Weather APP</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+     crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+     
+</head>
+<body style="background-color: rgb(87, 199, 219);" >
+<nav class="navbar navbar-default " id="nav_bar">
+     <div class="container-fluid">
+          <h1 id="header">Weather Update</h1>
+     </div>
+</nav>
+<div class="jumbotron" style="margin-bottom: 0px; margin-top: 0px; background-color:rgb(146, 223, 236) ;" >
+     <h2 class="text-center text-primary" style="font-size:50px; font-weight:600;" >Get current weather information</h2>
+</div>
+<div class="container">
+     <div class="row" >
+          <div class="col-md-12">
+               <h2 class="text-center text-primary" >Enter City</h2>
+          </div>
+          <div class="row form-group form-inline" id="cityDiv">
+               <input type="text" name="city" id="city" class="form-control" placeholder="Enter City Name" >
+               <button id="submitCity" class="btn btn-primary" >Search City</button>
+          </div>
+          
+     </div>
+     <div id="err"></div>
+     <div id="showWeather"></div>
+</div>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+     crossorigin="anonymous"></script>  
+     <script src="app.js" ></script>   
+</body>
+</html>

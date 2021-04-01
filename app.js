@@ -30,7 +30,7 @@ function getWeather(){
 function showResults(data){
 console.log("hello")
      return "<p>Name: "+data.name+" </p>"
-     +"<p>Name: "+data.sys.country+" </p>"
+     +"<p>Country: "+data.sys.country+" </p>"
      +"<p>Temperature:"+data.main.temp+"</p>"
      +"<p>Pressure: "+data.main.pressure+" </p>"
      +"<p>Humidity: "+data.main.humidity+" </p>"
